@@ -29,8 +29,8 @@ body {
   background: #d88a7a;
   border-radius: 0 0 4px 4px;
   width: 320px;
-  height: 380px;
-  min-height: 380px;
+  height: 420px;
+  min-height: 420px;
   margin: 20px auto;
   position: relative;
   transition: all 0.3s cubic-bezier(.42,0,.58,1);
@@ -53,7 +53,7 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 356px 0 0 300px;
+  border-width: 396px 0 0 300px;
   border-color: transparent transparent transparent #E9978C;
 }
 
@@ -62,7 +62,7 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 356px 300px;
+  border-width: 0 0 396px 300px;
   border-color: transparent transparent #E9978C transparent;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .envelope.open .card {
-  transform: translateX(14%) translateY(-200px);
+  transform: translateX(14%) translateY(-240px);
   transition-delay: 0.6s;
 }
 
@@ -106,9 +106,9 @@ body {
   left: 0;
   bottom: 0;
   width: 70%;
-  height: 100%;
+  height: 120%;
   padding: 8px 20px;
-  transform: translateX(14%);
+  transform: translateX(14%) translateY(-20px);
   transition: all 0.3s cubic-bezier(.42,0,.58,1) 0s;
   z-index: 1;
 }
@@ -183,7 +183,7 @@ body {
   border-radius: 40px;
   overflow: hidden;
   width: 300px;
-  height: 360px;
+  height: 400px;
   position: absolute;
   top: -50%;
   left: 50%;
